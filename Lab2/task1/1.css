@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    background-color:  #f0f2f5;
+}
+
+form {
+    background-color: #fff;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px 5px;
+    margin: -23vh 850px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px -7px;
+}
+
+input[type="text"], input[type="password"] {
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    height: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+    font-family: Italic;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forger-pwd {
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.line {
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.createacc {
+    background-color: #42b72a;
+    width: 180px;
+    text-align: center;
+}
+
+.sub-link h3 {
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI';
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.createpage{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Se";
+}
+
+.text {
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    font-family: 'Segoe UI', Roboto, "San Francisco";
+}
+
+.text img{
+
+    width: 250px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+.sub-link {
+    position: absolute;
+    width: 350px;
+    left: 840px;
+    top: 530px;
+    text-align: center;
+}
