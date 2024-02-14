@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="headertext">ToDo List</div>
+    </header>
+
+    <section>
+        <div id="search">
+            <div class="ToDoList">
+                <div class="ToDo">ToDo List</div>
+            </div>
+            <form action="javascript:;" onsubmit="addTask()" class="to-do__form form">
+                <div id="searchcontent">
+                    <input id="searchbar" type="text" placeholder="New Task">
+                    <button id="addbutton" type="submit">Add</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div id="tasklist">
+            <!-- <div class="task">
+
+                <div class="check">
+                    <input type="checkbox" class="chkbox" onclick="done(this)">
+                </div>
+
+                <div class="content">
+                    <p>Content</p>
+                </div>
+
+                <div class="delete">
+                    <button class="delete-button" onclick="delete_(this)">
+                        Delete
+                    </button>
+                </div>
+
+            </div> -->
+        </div>
+        </div>
+    </section>
+    <script src="todo.js"></script>
+</body>
+
+</html>
